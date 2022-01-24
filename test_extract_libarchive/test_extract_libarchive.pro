@@ -15,10 +15,13 @@ LIBS += "C:\Users\ASUS\OneDrive\Documents\code C\libarchive-v3.5.2-win64\libarch
 
 
 SOURCES += \
+    ArchiveExtraction.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    ArchiveExtraction.h \
+    Archives.h \
     mainwindow.h
 
 FORMS += \
